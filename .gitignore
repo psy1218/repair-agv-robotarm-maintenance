@@ -1,0 +1,44 @@
+# Secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JS and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Firmware / native generated files
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+
+# Local logs and recordings (store shared evidence via agreed links)
+*.log
+logs/
+recordings/
